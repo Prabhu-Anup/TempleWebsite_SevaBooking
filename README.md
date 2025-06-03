@@ -1,60 +1,36 @@
-# Temple Website
-
-This project is a modern web application for a temple, built using React.js and styled with Tailwind CSS. It serves as an online presence for the temple, providing information about its services, events, and community.
-
-## Features
-
-- Responsive design using Tailwind CSS
-- Home page with welcome messages and temple information
-- Navigation header for easy access to different sections
-- Future enhancements for events and community engagement
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps:
+First, run the development server:
 
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm (Node package manager)
-
-### Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/temple-website.git
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd temple-website
-   ```
-
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-
-### Running the Application
-
-To start the development server, run:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
-npm start
-```
-This will launch the application in your default web browser at `http://localhost:3000`.
 
-### Building for Production
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To create a production build, run:
-```
-npm run build
-```
-This will generate an optimized build of the application in the `build` directory.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Contributing
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+## Learn More
 
-## License
+To learn more about Next.js, take a look at the following resources:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
